@@ -47,11 +47,11 @@ const myLoader11 =() => {
 const Projects = () => {
     return (
       <div id='projects' className="bg-gray-300  ">
-          <p className="flex text-center justify-center mx-auto max-w-3xl lg:max-w-5xl text-6xl  pt-14  pb-8 text-gray-700">
+          <p className="flex text-center justify-center mx-auto max-w-2xl lg:max-w-5xl text-5xl md:text-6xl  pt-14  pb-8 text-gray-700">
               Featured Projects</p>  
           <p className="flex  justify-center mx-auto text-4xl pb-14 text-gray-700">
           Mobile Applications</p>
-          <div className=" flex justify-center items-center">
+          <div className=" flex justify-center items-center p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
                 <div ><Project image={<FaVirus size= {96} ></FaVirus>} name= {'Covid Stats'} description = {'It is a project that collects'+
                 'information on covid data through an API, configured with the parameters that the user wishes, '+
@@ -69,7 +69,7 @@ const Projects = () => {
         <p className="flex  justify-center mx-auto text-4xl py-14 text-gray-700">
         ArchViz Projects</p>
 
-        <div className=" flex justify-center items-center">
+        <div className=" flex justify-center items-center p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-700">
                 <div >
                   <Project 
@@ -81,7 +81,6 @@ const Projects = () => {
                     alt="Picture of the author"
                     width={380}
                     height={380}
-                    layout='fixed'
                     objectFit='cover'
                     /> 
                     } name= {'Pottery Shop'}  
@@ -122,7 +121,7 @@ const Projects = () => {
                     alt="Picture of the author"
                     width={380}
                     height={380}
-                    layout='fixed'
+                    
                     objectFit='cover'
                     /> 
                     } name= {'Ejecutive Office'}  
@@ -162,7 +161,7 @@ const Projects = () => {
                     alt="Picture of the author"
                     width={380}
                     height={380}
-                    layout='fixed'
+                    
                     objectFit='cover'
                     /> 
                     } name= {'Chalet (WIP)'}  
@@ -202,7 +201,7 @@ const Projects = () => {
                     alt="Picture of the author"
                     width={380}
                     height={380}
-                    layout='fixed'
+                    
                     objectFit='cover'
                     /> 
                     } name= {'Mediterranean Villa (WIP)'}  
@@ -242,7 +241,7 @@ const Projects = () => {
                     alt="Picture of the author"
                     width={380}
                     height={380}
-                    layout='fixed'
+                    
                     objectFit='cover'
                     /> 
                     } name= {'Outside Yard (WIP)'}  
@@ -282,7 +281,7 @@ const Projects = () => {
                     alt="Picture of the author"
                     width={380}
                     height={380}
-                    layout='fixed'
+                    
                     objectFit='cover'
                     /> 
                     } name= {'Hotel Facade (WIP)'}  
@@ -319,7 +318,7 @@ const Projects = () => {
         <p className="flex  justify-center mx-auto text-4xl py-14 text-gray-700">
         Other 3D Projects</p>
 
-        <div className=" flex justify-center items-center">
+        <div className=" flex justify-center items-center p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-700 mb-16 ">
                 <div >
                   <Project 
@@ -331,7 +330,7 @@ const Projects = () => {
                     alt="Picture of the author"
                     width={380}
                     height={380}
-                    layout='fixed'
+                    
                     objectFit='cover'
                     /> 
                     } name= {'Bots Characters'}  
@@ -372,7 +371,7 @@ const Projects = () => {
                     alt="Picture of the author"
                     width={380}
                     height={380}
-                    layout='fixed'
+                    
                     objectFit='cover'
                     /> 
                     } name= {'Videogames scenarios'}  

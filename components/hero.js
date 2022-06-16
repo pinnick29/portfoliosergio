@@ -3,7 +3,7 @@ import {FiDownload} from 'react-icons/fi'
 const Hero = () => {
     return (
       <div id='hero' className='bg-gray-300' >
-        <div className=' flex flex-col md:flex-row items-center max-w-3xl lg:max-w-5xl mx-auto py-10 justify-center'>
+        <div className=' flex flex-col md:flex-row items-center max-w-2xl lg:max-w-5xl mx-auto py-10 justify-center'>
           <div className=" flex-col space-y-3 w-2/3  h-auto py-8 rounded-3xl   ">
             <p className="text-gray-700 py-4 text-3xl"> <span className="font-bold text-sky-500">Work with a </span>problem solver</p>
 
