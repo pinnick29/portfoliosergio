@@ -7,17 +7,21 @@ import { TbBrandNextjs} from 'react-icons/tb'
 
 const Skills = ( {name, icon}) => {
     return (
-      <div id='skills' className="bg-gray-800  border-y-2  ">
-        <p className="flex items-center justify-center mx-auto text-6xl pt-14">I use Techs <span className="pl-4 text-sky-500">in Demand</span></p>
-        <div className='max-w-5xl mx-auto py-20 flex justify-center items-center gap-x-20'>
-            
+      <div id='skills' className="bg-gray-300 ">
+        <p className="flex flex-col md:flex-row items-center justify-center text-center md:text-left mx-auto text-6xl pt-14 text-gray-700">I use Techs in Demand</p>
+        <div className='max-w-5xl mx-auto py-20 flex flex-col  lg:flex-row justify-center items-center gap-20 md:gap-y-20 '>
+          <div className=" flex flex-col md:flex-row justify-center gap-20 items-center">
             <Skill name={'React'} icon={<FaReact></FaReact>} />
             <Skill name={'NextJS'} icon={ <TbBrandNextjs></TbBrandNextjs>} />
             <Skill name={'TailwindCSS'} icon={<SiTailwindcss></SiTailwindcss>} />
             <Skill  icon={<IoLogoJavascript></IoLogoJavascript>} name={'Javascript'}  />
+          </div>
+          
+          <div className="flex flex-col md:flex-row justify-center gap-20 items-center">
             <Skill name={'HTML'} icon={<FaHtml5></FaHtml5>} />
             <Skill name={'CSS'} icon={<DiCss3></DiCss3>} />
             <Skill name={'GitHub'} icon={ <FaGithub></FaGithub>} />
+          </div>
             
         </div>
       </div>
