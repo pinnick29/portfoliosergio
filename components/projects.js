@@ -46,7 +46,7 @@ const myLoader11 =() => {
 
 const Projects = () => {
     return (
-      <div id='projects' className="bg-gray-300  ">
+      <section id='projects' className="bg-gray-300 pt-16 ">
           <p className="flex text-center justify-center mx-auto max-w-2xl lg:max-w-5xl text-5xl md:text-6xl  pt-14  pb-8 text-gray-700">
               Featured Projects</p>  
           <p className="flex  justify-center mx-auto text-4xl pb-14 text-gray-700">
@@ -412,7 +412,7 @@ const Projects = () => {
         </div>
            
         
-      </div>
+      </section>
     )
   }
   
