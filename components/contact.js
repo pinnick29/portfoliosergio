@@ -24,22 +24,16 @@ const Contact = () => {
                     <div className="flex gap-x-4 my-2">
                     
                 
-                    <a href="https://www.linkedin.com/in/sergio-l%C3%B3pez-vi%C3%B1uela-251464213/" target='_blank' >
-                        <Button
-                            icon= {<FaLinkedinIn size={20}/>}
-                        />
+                    <a href="https://www.linkedin.com/in/sergio-l%C3%B3pez-vi%C3%B1uela-251464213/" target='_blank' className=" border-2 rounded-full p-3 hover:bg-gray-600" >
+                        <FaLinkedinIn size={20}/>
                     </a>
 
-                    <a href="https://github.com/pinnick29" target='_blank' >
-                        <Button
-                            icon= {<FaGithub size={20}/>}
-                        />
+                    <a href="https://github.com/pinnick29" target='_blank' className=" border-2 rounded-full p-3 hover:bg-gray-600" >
+                        <FaGithub size={20}/>
                     </a>
 
-                    <a href="https://www.artstation.com/ubdb880fd" target='_blank' >
-                        <Button
-                            icon= {<FaArtstation size={20}/>}
-                        />
+                    <a href="https://www.artstation.com/ubdb880fd" target='_blank' className=" border-2 rounded-full p-3 hover:bg-gray-600" >
+                        <FaArtstation size={20}/>
                     </a>
                     
                     
