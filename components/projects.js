@@ -53,11 +53,11 @@ const Projects = () => {
           Mobile Applications</p>
           <div className=" flex justify-center items-center p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
-                <div ><Project image={<FaVirus size= {96} ></FaVirus>} name= {'Covid Stats'} description = {'It is a project that collects'+
+                <a href = '#covidStats' ><Project image={<FaVirus size= {96} ></FaVirus>} name= {'Covid Stats'} description = {'It is a project that collects'+
                 'information on covid data through an API, configured with the parameters that the user wishes, '+
                 'both by dates and at the national, regional and local levels.'} 
                 icon1={<TbBrandKotlin size={40}></TbBrandKotlin>} icon2={<FaAndroid size={40}></FaAndroid>} ></Project>
-                </div>
+                </a>
                 <div><Project image={<GiCardPick size ={96}></GiCardPick>} name= {'Hearthstone Searcher'} 
                 description = {'It is a project that collects information about cards from a video game through an API, configured with the parameters that the user wants, both by amount of mana, as a class and as a card type.'}
                 icon1={<TbBrandKotlin size={40}></TbBrandKotlin>} icon2={<FaAndroid size={40}></FaAndroid>}></Project>
