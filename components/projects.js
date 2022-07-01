@@ -58,10 +58,10 @@ const Projects = () => {
                 'both by dates and at the national, regional and local levels.'} 
                 icon1={<TbBrandKotlin size={40}></TbBrandKotlin>} icon2={<FaAndroid size={40}></FaAndroid>} ></Project>
                 </a>
-                <div><Project image={<GiCardPick size ={96}></GiCardPick>} name= {'Hearthstone Searcher'} 
+                <a href="cardSearcher"><Project image={<GiCardPick size ={96}></GiCardPick>} name= {'Hearthstone Searcher'} 
                 description = {'It is a project that collects information about cards from a video game through an API, configured with the parameters that the user wants, both by amount of mana, as a class and as a card type.'}
                 icon1={<TbBrandKotlin size={40}></TbBrandKotlin>} icon2={<FaAndroid size={40}></FaAndroid>}></Project>
-                </div>
+                </a>
                 
             </div>
           </div>
