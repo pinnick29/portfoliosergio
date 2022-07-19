@@ -11,43 +11,38 @@ const myLoader = () => {
 
 const Contact = () => {
     return (
-      <div id='contact' className='max-w-3xl lg:max-w-5xl mx-auto flex flex-col-reverse  items-center md:flex-row p-2 gap-14  h-screen my-20' >
-            <div className='flex flex-col w-1/2 h-1/2 gap-y-4 justify-center  pt-10  border-gray-300 '>
-                <p className="text-xl text-center md:text-left">Hello, I m</p>
-                <p className='text-4xl md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to to-lime-500 text-center md:text-left '>Sergio López Viñuela</p>
-                <p className='flex justify-center  items-center tracking-widest text-2xl text-center  md:text-left '>Front-end Developer</p>
-                <div className="flex flex-col  justify-center items-center md:flex-row gap-6 cursor-pointer">               
-                    <a  href = '#projects' className="flex justify-center items-center p-2 w-40 border-2 gap-x-2 hover:bg-gray-600 rounded-full">
+      <div id='contact' className='flex justify-center items-center  h-screen ' >
+            <div className='flex flex-col items-center gap-y-6 justify-center pt-10  border-gray-300 '>
+                <p className="text-xl">Hello, I m</p>
+                <p className='h-16 sm:h-16 md:h-18 lg:h-24 text-4xl sm:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to to-lime-500'>Sergio López Viñuela</p>
+                <p className='tracking-widest text-2xl'>Front-end Developer</p>
+                <div className="flex justify-center items-center flex-col md:flex-row gap-6 cursor-pointer">                
+                    <div className="flex h-12 justify-center items-center w-40 border-2 gap-x-2 hover:bg-gray-600 rounded-full">
                         <p>See Projects</p>
                         <FaLongArrowAltRight/>
-                    </a>
-                    <div className="flex gap-x-4 my-2">
-                    
-                
-                    <a href="https://www.linkedin.com/in/sergio-l%C3%B3pez-vi%C3%B1uela-251464213/" target='_blank' className=" border-2 rounded-full p-3 hover:bg-gray-600" >
-                        <FaLinkedinIn size={20}/>
-                    </a>
-
-                    <a href="https://github.com/pinnick29" target='_blank' className=" border-2 rounded-full p-3 hover:bg-gray-600" >
-                        <FaGithub size={20}/>
-                    </a>
-
-                    <a href="https://www.artstation.com/ubdb880fd" target='_blank' className=" border-2 rounded-full p-3 hover:bg-gray-600" >
-                        <FaArtstation size={20}/>
-                    </a>
-                    
-                    
+                    </div>
+                    <div className="flex gap-4">
+                        <Button 
+                            icon={<FaLinkedinIn size={20}/>}
+                        />
+                        <Button 
+                            icon={<FaGithub size={20}/>}
+                        />
+                        <Button 
+                            icon={<FaArtstation size={20}/>}
+                        />
                     </div>
                 </div>                
             </div>
-            <div className="flex h-1/2 items-center">
+            <div className="hidden lg:flex justify-center items-center m-10">
                 { <Image
                     className="rounded-full"
                     loader={myLoader}
                     src= {'/AHgcQvGj_4x.jpg'}
                     alt="Picture of the author"
-                    width={400}
-                    height={400}
+                    width={350}
+                    height={350}
+                    layout='fixed'
                     objectFit='cover'
                 />  }
             </div>
