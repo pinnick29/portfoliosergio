@@ -50,9 +50,9 @@ const myLoader12 =() => {
 const Projects = () => {
     return (
       <section id='projects' className="bg-gray-300 pt-16 ">
-          <p className="flex text-center justify-center mx-auto max-w-2xl lg:max-w-5xl text-5xl md:text-6xl  pt-14  pb-8 text-gray-700">
+          <p className="flex text-center justify-center mx-auto max-w-2xl lg:max-w-5xl text-3xl md:text-6xl  pt-14  pb-8 text-gray-700">
               Featured Projects</p>  
-          <p className="flex  justify-center mx-auto text-4xl pb-14 text-gray-700">
+          <p className="flex  justify-center mx-auto text-xl md:text-4xl pb-14 text-gray-700">
           Mobile Applications</p>
           <div className=" flex justify-center items-center p-8 ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
@@ -73,7 +73,7 @@ const Projects = () => {
         ArchViz Projects</p>
 
         <div className=" flex justify-center items-center p-8">
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-y-10 w-96 md:w-auto text-gray-700">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-y-10  md:w-auto text-gray-700">
             <div >
                   <Project 
                     image={
