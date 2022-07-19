@@ -43,6 +43,9 @@ const myLoader10 =() => {
 const myLoader11 =() => {
   return `/salon.PNG`
 }
+const myLoader12 =() => {
+  return `/RENDER COCINA.PNG`
+}
 
 const Projects = () => {
     return (
@@ -51,7 +54,7 @@ const Projects = () => {
               Featured Projects</p>  
           <p className="flex  justify-center mx-auto text-4xl pb-14 text-gray-700">
           Mobile Applications</p>
-          <div className=" flex justify-center items-center p-8">
+          <div className=" flex justify-center items-center p-8 ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
                 <a href = '#covidStats' ><Project image={<FaVirus size= {96} ></FaVirus>} name= {'Covid Stats'} description = {'It is a project that collects'+
                 'information on covid data through an API, configured with the parameters that the user wishes, '+
@@ -70,7 +73,45 @@ const Projects = () => {
         ArchViz Projects</p>
 
         <div className=" flex justify-center items-center p-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-700">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-y-10 text-gray-700">
+            <div >
+                  <Project 
+                    image={
+                    <Image
+                    className=""
+                    loader={myLoader12}
+                    src= {'/RENDER COCINA.png'}
+                    alt="Picture of the author"
+                    width={1000}
+                    height={700}
+                    objectFit='cover'
+                    /> 
+                    } name= {'Classic Kitchen'}  
+                    icon1={
+                      <Image
+                        className=""
+                        loader={myLoader3}
+                        src= {'/3dsmax.svg'}
+                        alt="Picture of the author"
+                        width={40}
+                        height={40}
+                      /> 
+                      
+                    } 
+                    icon2={
+                      <Image
+                        className=""
+                        loader={myLoader4}
+                        src ={'/vray.svg'}
+                        alt="Picture of the author"
+                        width={40}
+                        height={40}
+                      /> 
+                    
+                    } >
+
+                  </Project>
+                </div>
                 <div >
                   <Project 
                     image={
@@ -79,8 +120,8 @@ const Projects = () => {
                     loader={myLoader2}
                     src= {'/ATLANTICA TABLE.jpg'}
                     alt="Picture of the author"
-                    width={380}
-                    height={380}
+                    width={1000}
+                    height={1000}
                     objectFit='cover'
                     /> 
                     } name= {'Pottery Shop'}  
@@ -119,8 +160,8 @@ const Projects = () => {
                     loader={myLoader5}
                     src= {'office.jpg'}
                     alt="Picture of the author"
-                    width={380}
-                    height={380}
+                    width={1000}
+                    height={700}
                     
                     objectFit='cover'
                     /> 
@@ -159,8 +200,8 @@ const Projects = () => {
                     loader={myLoader6}
                     src= {'house.jpg'}
                     alt="Picture of the author"
-                    width={380}
-                    height={380}
+                    width={1000}
+                    height={700}
                     
                     objectFit='cover'
                     /> 
@@ -199,8 +240,8 @@ const Projects = () => {
                     loader={myLoader7}
                     src= {'BENI4.jpg'}
                     alt="Picture of the author"
-                    width={380}
-                    height={380}
+                    width={1000}
+                    height={700}
                     
                     objectFit='cover'
                     /> 
@@ -239,8 +280,8 @@ const Projects = () => {
                     loader={myLoader8}
                     src= {'MIAMI ARTHUR 2.jpg'}
                     alt="Picture of the author"
-                    width={380}
-                    height={380}
+                    width={1000}
+                    height={700}
                     
                     objectFit='cover'
                     /> 
@@ -279,8 +320,8 @@ const Projects = () => {
                     loader={myLoader9}
                     src= {'HOTEL HUDSON.jpg'}
                     alt="Picture of the author"
-                    width={380}
-                    height={380}
+                    width={1000}
+                    height={700}
                     
                     objectFit='cover'
                     /> 

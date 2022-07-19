@@ -14,14 +14,14 @@ const Achievement = () => {
                 <div className='flex  border-t-2 md:border-r-2 md:border-t-0 h-5/6 p-4 gap-4 justify-center items-center  '>
                     <FiCheckCircle size = {56} className='  text-sky-500 '/>
                     <div  className='flex flex-col '>
-                        <p className = '  text-gray-300 text-5xl font-medium '>12</p>
+                        <p className = '  text-gray-300 text-5xl font-medium '>13</p>
                         <p className = '  text-gray-300  text-sm font-medium '>Projects completed</p>
                     </div>
                 </div>
                 <div  className='flex border-t-2 md:border-r-2 md:border-t-0 h-5/6 p-4 gap-4 justify-center items-center'>
                     <IoMdPeople size={56} className='  text-sky-500'/>
                     <div className='flex flex-col '>
-                        <p className = '   text-gray-300 text-5xl font-medium'>15+</p>
+                        <p className = '   text-gray-300 text-5xl font-medium'>16+</p>
                         <p className = '  text-gray-300  text-sm font-medium'>Software learned</p>
                     </div>
                 </div>
