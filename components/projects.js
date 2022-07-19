@@ -44,7 +44,7 @@ const myLoader11 =() => {
   return `/salon.PNG`
 }
 const myLoader12 =() => {
-  return `/RENDER COCINA.PNG`
+  return `/RENDER COCINA.png`
 }
 
 const Projects = () => {
@@ -73,7 +73,7 @@ const Projects = () => {
         ArchViz Projects</p>
 
         <div className=" flex justify-center items-center p-8">
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-y-10 text-gray-700">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-y-10 w-96 md:w-auto text-gray-700">
             <div >
                   <Project 
                     image={
